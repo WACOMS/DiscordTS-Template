@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot-ts",
+  "version": "0.1.0",
+  "description": "Un simple bot Typescript",
+  "main": "index.js",
+  "author": "WACOMS",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/glob": "^8.0.0",
+    "@types/node": "^18.11.5",
+    "@types/yamljs": "^0.2.31",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf build/",
+    "copy-files": "copyfiles -u 1 src/**/*.yaml build/",
+    "build": "yarn clean && tsc && yarn copy-files"
+  },
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "discord.js": "^14.6.0",
+    "yamljs": "^0.3.0",
+    "glob": "7.2.0"
+  }
+}
