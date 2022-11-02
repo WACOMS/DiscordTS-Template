@@ -1,7 +1,6 @@
-settings:
-  client:
-    token: MTAzMzQ1OTE0Nzk1OTcxNzk1OA.GZmUEg.RczTqCWlb2cdibLa5LKmtCGMhwXxxMBnI9ZakA
-    commands:
-      commandNotFoundMessage: Cette commande n'existe pas !
-  app:
-    readyMessage: Bot prêt !
+client:
+  token: MTAzMzQ1OTE0Nzk1OTcxNzk1OA.G_qhlz.3SMZSt6m1_YXtBwyc1CF9v4k67kX5VDnAirdVs
+app:
+  readyMessage: Bot prêt !
+  loader:
+    commandLoadedMessage: Commande {name} chargée !
